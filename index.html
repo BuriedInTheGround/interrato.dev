@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simone Ragusa</title>
+
+    <link rel="stylesheet" href="normalize.css">
+
+    <style>
+        /* Add font faces here. */
+        @font-face {
+            font-family: 'ZillaSlab';
+            src: local('ZillaSlab'), local('ZillaSlab-Regular'),
+                url('./fonts/ZillaSlab-Regular.woff2') format('woff2'),
+                url('./fonts/ZillaSlab-Regular.woff') format('woff');
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: local('Montserrat'), local('Montserrat-Regular'),
+                url('./fonts/Montserrat-Regular.woff2') format('woff2'),
+                url('./fonts/Montserrat-Regular.woff') format('woff');
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'FiraCode';
+            src: local('FiraCode'),
+                url('./fonts/FiraCode-VariableFont_wght.ttf') format('truetype');
+            font-style: normal;
+            font-weight: 200;
+        }
+
+        /* Content styling. */
+        .container {
+            width: auto;
+            max-width: 840px;
+            padding: 0 1.5em;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            /* -moz-user-select: none; */
+            /* -webkit-user-select: none; */
+        }
+
+        h1, h2 {
+            font-family: 'ZillaSlab', serif;
+        }
+
+        h1 {
+            font-size: 2.1em;
+        }
+
+        p {
+            line-height: normal;
+        }
+
+        code {
+            font-family: 'FiraCode', monospace;
+            -moz-osx-font-smoothing: antialiased;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        img.emoji {
+            height: 1em;
+            width: 1em;
+            margin: 0 .05em 0 .1em;
+            vertical-align: -0.1em;
+        }
+    </style>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+        crossorigin="anonymous"></script>
+    <script
+        src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js"
+        integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4"
+        crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            document.body = twemoji.parse(document.body);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="simone-ragusa">Simone Ragusa</h1>
+        <p>
+            I'm a software developer and undergraduate student of computer engineering of the
+            <a href="https://www.unipd.it/en/" target="_blank" rel="noopener noreferrer">University of Padua</a>.
+        </p>
+        <p>
+            I am <i>BuriedInTheGround</i> on <a href="https://github.com/BuriedInTheGround" rel="me">GitHub</a>,
+            while on <a href="https://twitter.com/BuriedInTheGnd" rel="me">Twitter</a> I am <i>BuriedInTheGnd</i>
+            (thanks to the username maximum characters length 🤦‍♂️).
+        </p>
+        <p>
+            I am the developer behind
+            <a href="https://www.indicatoredf.com/" target="_blank" rel="noopener noreferrer">Indicatore DF</a>.
+        </p>
+
+        <h2 id="contacts">Contacts</h2>
+        <p>
+            <code>simone99.as@</code><code>gmail.com</code>
+        </p>
+        <p>
+            <code>simoneragusa@</code><code>protonmail.com</code>
+        </p>
+    </div>
+</body>
+
+</html>
