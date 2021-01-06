@@ -40,15 +40,32 @@
 
         /* Content styling. */
         .container {
+            margin: auto;
             width: auto;
-            max-width: 840px;
+            max-width: 640px;
             padding: 0 1.5em;
+        }
+
+        @media (min-width: 992px) {
+            .container {
+                margin: 0
+            }
         }
 
         body {
             font-family: 'Montserrat', sans-serif;
             /* -moz-user-select: none; */
             /* -webkit-user-select: none; */
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body, .container {
+                background: #181a1b;
+                color: #e8e6e3;
+            }
+            a {
+                color: #3391ff;
+            }
         }
 
         h1, h2 {
