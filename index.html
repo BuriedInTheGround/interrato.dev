@@ -80,6 +80,13 @@
             -webkit-font-smoothing: antialiased;
         }
 
+        img.emoji {
+            height: 1em;
+            width: 1em;
+            margin: 0 .05em 0 .1em;
+            vertical-align: -0.1em;
+        }
+
         /* Theming (dark-first approach). */
         body, .container {
             background: #181a1b;
@@ -110,6 +117,14 @@
         }
 
     </style>
+    <script async src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+        document.onreadystatechange = () => {
+            if (document.readyState === 'complete') {
+                document.body = twemoji.parse(document.body);
+            }
+        };
+    </script>
 </head>
 
 <body>
@@ -120,8 +135,7 @@
             <a href="https://www.unipd.it/en/" target="_blank" rel="noopener noreferrer">University of Padua</a>.
         </p>
         <p>
-            I am the developer behind
-            <a href="https://www.indicatoredf.com/" target="_blank" rel="noopener noreferrer">Indicatore DF</a>.
+            I love cryptography 🔐, networking 🌐 and martial arts 🥋!
         </p>
 
         <h2 id="contacts">Contacts</h2>
