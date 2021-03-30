@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:simoneragusa@protonmail.com
+Expires: Thu, 30 Sep 2021 12:00 +0200
+Encryption: https://interrato.dev/pgp-key.txt
+Preferred-Languages: en, it
+Canonical: https://interrato.dev/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEiwh4iTx7K092IH8SNtG+Y9+/yZIFAmBjiH4ACgkQNtG+Y9+/
+yZIr1Q//ZbQW9aMr+JKihpC54lIug0i9sBmptt7sMGZsrPrxDPXenthkjAmxEBEN
+BCpHdufDH0WoySW0K9AykGPX2KctL9JCNvgFoiV58IngfukAQsHvNEgAtVVF9KNM
+GuI4x6UtHB9g7QQMSOtq271Iz0IYT2FlJh/3OMhAMapcg7l1uLCAjqzP43AX8DTY
+meRLYUb1ZAEPdfp2trAN0p9rSUy55d4/u2od93Do411vRDihvBfjQeZcFM+YiHdT
+FUNJGFgyGFykk0jG+XmXSw60txOBDKUQX0RAzoUukNnUXohfcBZXfu0s83LEX7Bb
+40IU7+kUW7qZMFnvBPi17bVOEGG1iDhz6ZH79LTC4GgqKlUmKwz7EQt19UVrZQA8
+LVB6UD/+MNu7N/3Ep0PRpKgIyfdq2nIClTCdYtfs0yXXJ+Mn9ypznldRHUfU+hEe
+sLVoe1WFCs3fnqpFYpHOWzmwOLcqlv+nlhq6+iGeQUjnfamUD2rWLGx+JuN9IvAq
+sS3WGYk6EnFt3nvU+kr7mPfMy1uY4noZpYu9EbDqXzgPKde+wR0KN/26uTWsm6h4
+EEBGTEl+RCqgxAvzC4YYV+6ReK506B4rdwOeQVSXDg3dWF0L8q9Mx56Mdv1qsvPA
+Lv49prtF6gH8oKuZJ0JMoBqj8sm38pAq97xZzC/RzS6yhoKaG5o=
+=mnty
+-----END PGP SIGNATURE-----
