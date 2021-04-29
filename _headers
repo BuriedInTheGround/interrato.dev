@@ -1,2 +1,16 @@
 /*
+  # enable HSTS
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+  # disallow attempts to iframe site
+  X-Frame-Options: DENY
+
+  # prevent browser from incorrectly detecting non-scripts as scripts
+  X-Content-Type-Options: nosniff
+
+  # block pages from loading when they detect reflected XSS attacks
+  X-XSS-Protection: 1; mode=block
+
+  # disable referrers for browsers that don't support strict-origin-when-cross-origin
+  # use strict-origin-when-cross-origin for browsers that do
+  Referrer-Policy: no-referrer, strict-origin-when-cross-origin
