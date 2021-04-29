@@ -1,0 +1,103 @@
+/* Fonts. */
+@font-face {
+    font-family: 'ZillaSlab';
+    src: local('ZillaSlab'), local('ZillaSlab-Regular'),
+        url('./fonts/ZillaSlab-Regular.woff2') format('woff2'),
+        url('./fonts/ZillaSlab-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), local('Montserrat-Regular'),
+        url('./fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('./fonts/Montserrat-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraCode';
+    src: local('FiraCode'),
+        url('./fonts/FiraCode-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+}
+
+/* Content styling. */
+.container {
+    margin: auto;
+    width: auto;
+    max-width: 640px;
+    padding: 0 1.5em;
+}
+
+@media (min-width: 992px) {
+    .container {
+        margin: 0
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* -moz-user-select: none; */
+    /* -webkit-user-select: none; */
+}
+
+h1, h2 {
+    font-family: 'ZillaSlab', serif;
+}
+
+h1 {
+    font-size: 2.1em;
+}
+
+p {
+    line-height: normal;
+}
+
+code {
+    font-family: 'FiraCode', monospace;
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+/* Theming (dark-first approach). */
+body, .container {
+    background: #181a1b;
+    color: #e8e6e3;
+}
+
+:link {
+    color: #3391ff;
+}
+
+:visited {
+    color: #ae73e5;
+}
+
+@media (prefers-color-scheme: light) {
+    body, .container {
+        background: initial;
+        color: initial;
+    }
+
+    :link {
+        color: #0000ee;
+    }
+
+    :visited {
+        color: #551a8b;
+    }
+}

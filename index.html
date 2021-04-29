@@ -10,121 +10,7 @@
     <title>Simone Ragusa</title>
 
     <link rel="stylesheet" href="normalize.min.css" media="all">
-
-    <style>
-        /* Fonts. */
-        @font-face {
-            font-family: 'ZillaSlab';
-            src: local('ZillaSlab'), local('ZillaSlab-Regular'),
-                url('./fonts/ZillaSlab-Regular.woff2') format('woff2'),
-                url('./fonts/ZillaSlab-Regular.woff') format('woff');
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: 'Montserrat';
-            src: local('Montserrat'), local('Montserrat-Regular'),
-                url('./fonts/Montserrat-Regular.woff2') format('woff2'),
-                url('./fonts/Montserrat-Regular.woff') format('woff');
-            font-style: normal;
-            font-weight: 400;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: 'FiraCode';
-            src: local('FiraCode'),
-                url('./fonts/FiraCode-VariableFont_wght.ttf') format('truetype');
-            font-style: normal;
-            font-weight: 200;
-            font-display: swap;
-        }
-
-        /* Content styling. */
-        .container {
-            margin: auto;
-            width: auto;
-            max-width: 640px;
-            padding: 0 1.5em;
-        }
-
-        @media (min-width: 992px) {
-            .container {
-                margin: 0
-            }
-        }
-
-        body {
-            font-family: 'Montserrat', sans-serif;
-            /* -moz-user-select: none; */
-            /* -webkit-user-select: none; */
-        }
-
-        h1, h2 {
-            font-family: 'ZillaSlab', serif;
-        }
-
-        h1 {
-            font-size: 2.1em;
-        }
-
-        p {
-            line-height: normal;
-        }
-
-        code {
-            font-family: 'FiraCode', monospace;
-            -moz-osx-font-smoothing: antialiased;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        img.emoji {
-            height: 1em;
-            width: 1em;
-            margin: 0 .05em 0 .1em;
-            vertical-align: -0.1em;
-        }
-
-        /* Theming (dark-first approach). */
-        body, .container {
-            background: #181a1b;
-            color: #e8e6e3;
-        }
-
-        :link {
-            color: #3391ff;
-        }
-
-        :visited {
-            color: #ae73e5;
-        }
-
-        @media (prefers-color-scheme: light) {
-            body, .container {
-                background: initial;
-                color: initial;
-            }
-
-            :link {
-                color: #0000ee;
-            }
-
-            :visited {
-                color: #551a8b;
-            }
-        }
-
-    </style>
-    <script async src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-    <script>
-        document.onreadystatechange = () => {
-            if (document.readyState === 'complete') {
-                document.body = twemoji.parse(document.body);
-            }
-        };
-    </script>
+    <link rel="stylesheet" href="style.css" media="all">
 </head>
 
 <body>
@@ -149,8 +35,14 @@
         </p>
     </div>
 
+    <script async src="https://twemoji.maxcdn.com/v/13.0.2/twemoji.min.js"
+        crossorigin="anonymous"
+        integrity="sha384-wyB/MspSJ/r2bT2kCj44qtsYRYlpzO2oAPhRj5myrWD63dt6qWv4x8AZe7Fl3K3b"></script>
+    <script async src="load.js"></script>
     <script data-goatcounter="https://interrato.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+        async src="//gc.zgo.at/count.v2.js"
+        crossorigin="anonymous"
+        integrity="sha384-PeYXrhTyEaBBz91ANMgpSbfN1kjioQNPHNDbMvevUVLJoWrVEjDCpKb71TehNAlj"></script>
 </body>
 
 </html>
