@@ -21,4 +21,4 @@
   # disable unsafe inline/eval and plugins, only load scripts from specific
   # paths and same origin, stylesheets and fonts from same origin, images from
   # twemoji.maxcdn.com interrato.goatcounter.com/count and same origin
-  Content-Security-Policy: default-src 'none'; font-src 'self'; img-src 'self' https://twemoji.maxcdn.com https://interrato.goatcounter.com/count; script-src 'self' https://gc.zgo.at/count.v2.js https://twemoji.maxcdn.com/v/13.0.2/twemoji.min.js; style-src 'self'
+  Content-Security-Policy: default-src 'none'; font-src 'self'; img-src 'self' https://twemoji.maxcdn.com https://interrato.goatcounter.com/count; script-src 'self' https://gc.zgo.at/count.v2.js https://twemoji.maxcdn.com/v/13.0.2/twemoji.min.js; style-src 'self'; frame-ancestors 'none'
