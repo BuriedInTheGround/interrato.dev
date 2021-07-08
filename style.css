@@ -62,8 +62,15 @@ p {
 
 code {
     font-family: 'FiraCode', monospace;
-    -moz-osx-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+    code {
+        -webkit-font-smoothing: auto;
+        -moz-osx-font-smoothing: auto;
+    }
 }
 
 img.emoji {
@@ -76,7 +83,7 @@ img.emoji {
 /* Theming (dark-first approach). */
 body, .container {
     background: #181a1b;
-    color: #e8e6e3;
+    color: #f5f5f5;
 }
 
 :link {
